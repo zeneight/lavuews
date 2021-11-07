@@ -23,7 +23,7 @@
             CategoryNews,
             TabNews,
             MainNews,
-        }
+        },
     }
 
 </script>

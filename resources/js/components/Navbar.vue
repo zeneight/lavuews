@@ -11,16 +11,19 @@
 
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto">
-                            <a href="index.html" class="nav-item nav-link active">Home</a>
-                            <div class="nav-item dropdown">
+                            <!-- <a href="/" class="nav-item nav-link active">Home</a> -->
+                            <router-link class="nav-item nav-link" active-class="active" to="/" exact>Home</router-link>
+                            <router-link class="nav-item nav-link" active-class="active" to="/detail" exact>Detail</router-link>
+
+                            <!-- <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dropdown</a>
                                 <div class="dropdown-menu">
                                     <a href="#" class="dropdown-item">Sub Item 1</a>
                                     <a href="#" class="dropdown-item">Sub Item 2</a>
                                 </div>
-                            </div>
-                            <a href="single-page.html" class="nav-item nav-link">Single Page</a>
-                            <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                            </div> -->
+                            <!-- <a href="single-page.html" class="nav-item nav-link">Single Page</a>
+                            <a href="contact.html" class="nav-item nav-link">Contact Us</a> -->
                         </div>
                         <div class="social ml-auto">
                             <a href=""><i class="fab fa-twitter"></i></a>

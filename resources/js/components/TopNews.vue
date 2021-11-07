@@ -5,7 +5,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 tn-left">
-                        <div class="row tn-slider">
+                        <div class="row" ref="check">
                             <div class="col-md-6">
                                 <div class="tn-img">
                                     <img src="https://picsum.photos/450/350/" />
@@ -66,3 +66,18 @@
         <!-- Top News End-->
     </div>
 </template>
+<script>
+export default {
+    name: "TopNews",
+    mounted() {
+        // Top News Slider
+        $(this.$refs.check).slick({
+            autoplay: true,
+            infinite: true,
+            dots: false,
+            slidesToShow: 1,
+            slidesToScroll: 1
+        });
+    },
+}
+</script>

@@ -30,7 +30,5 @@
 	<script src="https://zeneight.github.io/tmpl/nw-3/lib/slick/slick.min.js"></script>
 	<!-- main js -->
 	<script src="{{ mix('js/app.js') }}"></script>
-	<!-- custom js -->
-	<script src="https://zeneight.github.io/tmpl/nw-3/js/main.js"></script>
 </body>
 </html>

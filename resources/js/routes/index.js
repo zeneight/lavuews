@@ -1,6 +1,6 @@
 // import Homepage from '../pages/Homepage.vue'
 import Home from '../pages/Home.vue'
-import Detail from '../pages/Detail.vue'
+import SingleContent from '../pages/SingleContent.vue'
 // import About from '../pages/About.vue'
 // import Contact from '../pages/Contact.vue'
 // import Blog from '../pages/Blog.vue'
@@ -16,7 +16,7 @@ export default {
         {
             path: '/detail',
             name: 'detail',
-            component: Detail
+            component: SingleContent
         },
         
     ]

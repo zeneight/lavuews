@@ -1,6 +1,5 @@
 <template>
-    <div>
-        <div class="col-lg-4">
+        <b-col class="col-lg-4">
             <div class="sidebar">
                 <div class="sidebar-widget">
                     <h2 class="sw-title">In This Category</h2>
@@ -239,6 +238,5 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </b-col>
 </template>
